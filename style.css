@@ -1,0 +1,125 @@
+/* ヘッダー */
+.btn{
+    display: none;
+  }
+  
+  header {
+    width: 100%;
+    height: 70px;
+    z-index: 100;
+    background-color: rgb(255, 166, 0);
+    display: flex;
+    margin-right: auto;
+  }
+  
+  .header-name {
+    padding-left: 5%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav {
+    position: absolute;
+    right: 0px;
+  }
+  
+  header nav ul {
+    font-size: 20px;
+    width: 100%;
+    padding: 35px;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .info-group{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    width: 100%;
+   
+    background-color: rgb(255, 166, 0);
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+  
+  }
+  
+  body {
+    text-align: center;
+  }
+  
+  .back-to-news{
+    display: block;
+    width: 1024px;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .news-title {
+    margin-top: 50px;
+    padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+    color: #494949;/*文字色*/
+    background: #f4f4f4;/*背景色*/
+    border-left: solid 5px #7db4e6;/*左線*/
+    border-bottom: solid 3px #d7d7d7;/*下線*/
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  
+  .picture img {
+    width: calc(100% - 40px);
+    max-width: 440px;
+    display: black;
+    margin: 0 auto;
+    
+  }
+  
+  
+  .category span {
+    
+    color: #362cff;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 10px;
+    border: 2px solid #362cff
+  }
+  
+  @media (max-width: 768px){
+    .back-to-news {
+      width: 100%;
+    }
+    .picture img{
+      margin: 20px;
+    }
+  
+  }
